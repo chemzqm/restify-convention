@@ -43,7 +43,7 @@
 
 ## URL 约定
 
-不同资源的 CRUD 请求应符合一致的约定，以 order 为例：
+统一资源的不同 CRUD 请求应符合一致的约定，以 order 为例：
 
 * 列出所有 order 的请求： `GET /orders`
 * 列出一个 order 的请求： `GET /orders/:id`
