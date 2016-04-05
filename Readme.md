@@ -1,4 +1,4 @@
-# API 基本规范
+# Restify API 基本规范
 
 ## http 头部
 
