@@ -95,7 +95,18 @@ PATCH 仅在修改资源部分属性时使用。
 
 * 参数：与 POST 相同
 * url： 修改资源 id 应在 url pathname 中体现
-* 响应：同 DELETE
+* 响应：如果修改的是单一资源，响应为空，如果涉及变更多个资源状态，返回应该为一个包含一个或多个 object 的 json, 例如：
+
+``` json
+{
+  "order": {
+  ...
+  },
+  "communicate": {
+  ...
+  }
+}
+```
 
 ## PUT 请求
 
